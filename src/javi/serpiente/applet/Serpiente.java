@@ -60,7 +60,7 @@ public class Serpiente {
             comida.relocate();
         }
         cola = snake.get(0);
-        System.out.printf("La cabeza tiene índice %d y la cola %d%n", snake.indexOf(cabeza), snake.indexOf(cola));
+        // System.out.printf("La cabeza tiene índice %d y la cola %d%n", snake.indexOf(cabeza), snake.indexOf(cola));
     }
 
     private boolean permitirGiro(Direccion nuevaDireccion){

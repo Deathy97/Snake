@@ -79,7 +79,7 @@ public class Juego extends Applet implements Runnable{
 
     @Override
     public boolean keyDown(Event evt, int key) {
-        System.out.println(key);
+        // System.out.println(key);
         switch (key){
             case 1006:
                 serpiente.girar(Serpiente.Direccion.IZQUIERDA);
